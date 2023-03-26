@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mantro_view"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ওঁ শ্রী জনার্দনায় নমঃ"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/mantroTitle"/>
+    <View
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="2dp"
+        android:paddingHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অখণ্ড মণ্ডলা কারং ব্যাপ্তং যেন চরাচরম। তদপদং দর্শিতং যেন তস্মৈ শ্রী গুরুবে নমঃ।।
+        অজ্ঞান তিমিরান্ধস্য জ্ঞানাঞ্জন শলাকয়া। চক্ষুরুন্মিলিত যেন তস্মৈ শ্রী গুরুবে নমঃ।।
+        গুরু ব্রহ্মা গুরু বিষ্ণু গুরুদেব মহেশ্বর। গুরু রেব পরং ব্রহ্ম তস্মৈ শ্রী গুরুবে নমঃ।।"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/mantroDeteils"/>
+
+</LinearLayout>
